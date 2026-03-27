@@ -292,12 +292,12 @@
     <div class="tip-box">如果你现在正在安稳的阅读这段文字，那么恭喜你成功把Unicode17.0.0代码表完整的加载出来了。</div>
 
     <script>
-if (history.scrollRestoration) {
-    history.scrollRestoration = 'manual'; // 禁用浏览器自动恢复滚动
-}
-window.addEventListener('load', function() {
-    window.scrollTo(0, 0);
-});        
+    if (history.scrollRestoration) {
+        history.scrollRestoration = 'manual'; // 禁用浏览器自动恢复滚动
+    }
+    window.addEventListener('load', function() {
+        window.scrollTo(0, 0);
+    });        
 // ========== 原网站JS + 新增Unicode版本颜色/动画逻辑 + 搜索功能 ==========
         // 节日配置
         const festivalConfig = {
